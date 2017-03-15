@@ -25,7 +25,7 @@ app.use('/api/v1/', apiv1.router);
 var http = require('http');
 var server = http.createServer(app);
 server.listen(port, function () {
-    console.log('Weather Report listening on ' + url);
+    console.log('Weather Report for HICR listening on ' + url);
 });
 
 app.get("/", function(req, res) {
